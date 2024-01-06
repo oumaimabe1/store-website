@@ -1,0 +1,36 @@
+.background{
+  background-color: 	#FFD700;
+}
+.my-form {
+  background-color:#FFD700; /* Couleur d'arrière-plan pour le formulaire */
+  padding: 30px; /* Ajoute une marge intérieure pour l'espace autour des éléments du formulaire */
+  border-radius: 10px;/* Ajoute une bordure arrondie */
+}
+
+.search-input {
+  width: 300px; /* Ajuste la largeur du champ de recherche */
+  margin-right: 10px; /* Ajoute une marge à droite du champ de recherche */
+}
+
+.search-button {
+  background-color:black; /* Couleur de fond pour le bouton de recherche */
+  border-color: black; /* Couleur de la bordure pour le bouton de recherche */
+  color: #fff; /* Couleur du texte pour le bouton de recherche */
+}
+.table {
+  border-collapse: collapse;
+}
+
+/* style.css */
+
+.category-button {
+  margin-right: 30px; /* Ajoute une marge à droite entre les boutons de catégorie */
+background-color:#0d0c09;
+ color: white;
+
+}
+
+
+  
+
+  

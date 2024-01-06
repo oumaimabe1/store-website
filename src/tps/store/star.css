@@ -1,0 +1,12 @@
+/* styles.css */
+span {
+    font-size: 2em;
+    margin: 0.1em;
+    color: #FFD700; /* couleur de l'étoile non sélectionnée */
+    transition: color 0.25s;
+  }
+  
+  span:hover {
+    color: #FFAC33; /* couleur de l'étoile survolée */
+  }
+  
