@@ -7,8 +7,7 @@ import { CartProvider } from './tps/navbar/CartContext';
 import ProductList from './tps/store/ProductList';
 import Header from './tps/navbar/Header';
 import Cart from './tps/navbar/cart';
-
-
+import CartPage from './tps/navbar/CartPage';
 const App = () => {
   return (
     <Router>
@@ -16,7 +15,7 @@ const App = () => {
         <Header />
         <Routes>
           <Route path="/" element={<ProductList />} />
-          <Route path="/cart" element={<Cart />} />
+          <Route path="/cart" element={<CartPage />} />
           <Route path="/shop" element={<ProductList />} />
           </Routes>
       </CartProvider>

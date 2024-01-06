@@ -3,15 +3,15 @@ import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Header.css';
-import logoImage from './shopping_icon.png'; // Ajustez le chemin de votre logo image
-import Cart from './cart'; // Ajustez le chemin en fonction de la structure de vos dossiers
+import logoImage from './shopping_icon.png'; 
+import Cart from './cart';
 import {
   FaHome,
   FaStore,
   FaEnvelope,
   FaSignInAlt,
   FaShoppingCart,} from 'react-icons/fa';
-import { useCart } from './CartContext'; // Ajustez le chemin en fonction de la structure de vos dossiers
+import { useCart } from './CartContext'; 
 
 const Header = () => {
   const { cart } = useCart();

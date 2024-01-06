@@ -1,12 +1,9 @@
-/*import React, { createContext, useContext, useReducer } from 'react';
-
-
+import React, { createContext, useContext, useReducer } from 'react';
 const CartContext = createContext();
 const cartActionTypes = {
   ADD_TO_CART: 'ADD_TO_CART',
 };
 
-// Reducer pour le panier
 const cartReducer = (state, action) => {
   switch (action.type) {
     case cartActionTypes.ADD_TO_CART:
@@ -16,7 +13,6 @@ const cartReducer = (state, action) => {
   }
 };
 
-// Componente fournisseur du contexte
 export const CartProvider = ({ children }) => {
   const [cart, dispatch] = useReducer(cartReducer, []);
 
